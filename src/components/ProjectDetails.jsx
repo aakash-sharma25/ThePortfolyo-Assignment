@@ -22,8 +22,8 @@ export default function ProjectDetails() {
     //   console.log(project)
   }, []);
   return (
-    <div className="mx-auto my-10 w-[90vw] flex items-center justify-center">
-      <div className=" lg:w-[60%] md:w-[80%] rounded shadow-lg ">
+    <div className="mx-auto w-[90vw] flex items-center justify-center">
+      <div className=" lg:w-[60%] md:w-[80%] rounded shadow-lg  mt-[150px]">
         <img
           className=" w-[90%] hover:cursor-pointer"
           src={project?.image?.url}
