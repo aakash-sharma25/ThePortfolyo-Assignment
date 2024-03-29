@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Navbar from "./Navbar";
 import HeroSection from "./HeroSection";
 import Skills from "./Skills";
 import Services from "./Services";

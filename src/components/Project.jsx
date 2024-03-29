@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
 
 /* eslint-disable react/prop-types */
 export default function Project({ projects }) {
