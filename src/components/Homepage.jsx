@@ -11,7 +11,6 @@ import axios from "axios";
 
 export default function Homepage() {
   const [data, setData] = useState([]);
-  const [sortedSkills, setSortedSkills] = useState([]);
 
   const fetchData = async () => {
     const { data } = await axios.get(
